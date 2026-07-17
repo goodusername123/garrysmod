@@ -1,6 +1,6 @@
 
 -- Don't try to edit this file if you're trying to add new NPCs.
--- Just make a new file and copy the format below.
+-- Just make a new file and copy the format below....
 
 local function AddNPC( t, class )
 	if ( !t.Name ) then t.Name = "#" .. ( class or t.Class ) end
